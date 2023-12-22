@@ -1,0 +1,107 @@
+{
+    "id": 5,
+    "email": "preetsubh5@gmail.com",
+    "user_name": "subh",
+    "first_name": "subhpreet",
+    "user_image": "/media/images/user-5/user_img/filename-pexels-markus-spiske-177598.jpg",
+    "blogs": [
+        {
+            "id": 16,
+            "title": "Mental Health in the Digital Age: Balancing Online and Offline Life",
+            "category": {
+                "id": 12,
+                "name": "health"
+            },
+            "author": "subh",
+            "excerpt": "Explore the impact of the digital world on mental health and learn strategies for maintaining balance.",
+            "image_url": "https://images.pexels.com/photos/37819/pexels-photo-37819.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "In the digital age, our lives are increasingly intertwined with technology, impacting our mental health. This article addresses the challenges of maintaining mental well-being in a world dominated by screens. It discusses the effects of social media, the importance of digital detoxes, and techniques for nurturing a healthy relationship with technology. The piece also provides practical tips for balancing online and offline life, emphasizing mindfulness, physical activity, and real-world connections as key components of mental wellness.",
+            "status": "published",
+            "image": "/media/images/user-5/post-None/filename-pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-806427.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Ocean Conservation: Protecting Our Marine Ecosystems",
+            "category": {
+                "id": 8,
+                "name": "Sea Life"
+            },
+            "author": "subh",
+            "excerpt": "Our oceans are in peril. Learn about the urgent need for ocean conservation and what we can do to help.",
+            "image_url": "https://images.pexels.com/photos/171945/pexels-photo-171945.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "The world's oceans are facing unprecedented threats due to pollution, overfishing, and climate change. This article highlights the critical importance of ocean conservation, discussing the current state of marine ecosystems, the impact of human activities, and the efforts being made to protect and restore marine biodiversity. It also provides practical ways individuals and communities can contribute to ocean conservation, emphasizing the role everyone plays in safeguarding these vital ecosystems for future generations.",
+            "status": "published",
+            "image": "/media/images/user-5/post-None/filename-pexels-engin-akyurt-2267538.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Ocean Conservation: Protecting Our Marine Ecosystems",
+            "category": {
+                "id": 7,
+                "name": "Environment"
+            },
+            "author": "subh",
+            "excerpt": "Our oceans are in peril. Learn about the urgent need for ocean conservation and what we can do to help.",
+            "image_url": "https://images.pexels.com/photos/171945/pexels-photo-171945.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "The world's oceans are facing unprecedented threats due to pollution, overfishing, and climate change. This article highlights the critical importance of ocean conservation, discussing the current state of marine ecosystems, the impact of human activities, and the efforts being made to protect and restore marine biodiversity. It also provides practical ways individuals and communities can contribute to ocean conservation, emphasizing the role everyone plays in safeguarding these vital ecosystems for future generations.",
+            "status": "published",
+            "image": "/media/images/user-5/post-None/filename-pexels-francisco-davids-10845801.jpg"
+        },
+        {
+            "id": 7,
+            "title": "The Future of Artificial Intelligence: Trends and Predictions",
+            "category": {
+                "id": 3,
+                "name": "Technology"
+            },
+            "author": "subh",
+            "excerpt": "Artificial Intelligence is shaping our future. Discover the key trends and predictions for AI's role in various sectors.",
+            "image_url": "https://images.pexels.com/photos/171945/pexels-photo-171945.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "Artificial Intelligence (AI) is no longer a futuristic concept, but a present reality transforming industries globally. This article delves into the latest AI trends, including advancements in machine learning, AI's integration in healthcare, autonomous vehicles, and the ethical considerations surrounding AI development. With expert insights and analysis, we explore how AI is set to revolutionize our daily lives and the challenges that come with such rapid technological advancements.",
+            "status": "published",
+            "image": null
+        },
+        {
+            "id": 3,
+            "title": "Sustainable Fashion: A New Trend",
+            "category": {
+                "id": 4,
+                "name": "Fashion"
+            },
+            "author": "subh",
+            "excerpt": "Fashion is becoming more sustainable. Learn about the latest trends.",
+            "image_url": "https://images.pexels.com/photos/171945/pexels-photo-171945.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "Sustainable fashion is gaining popularity, focusing on eco-friendly materials and ethical manufacturing processes.",
+            "status": "published",
+            "image": null
+        },
+        {
+            "id": 2,
+            "title": "5 Emerging Technologies in 2023",
+            "category": {
+                "id": 3,
+                "name": "Technology"
+            },
+            "author": "subh",
+            "excerpt": "A look at the top 5 emerging technologies shaping our future.",
+            "image_url": "https://images.pexels.com/photos/171945/pexels-photo-171945.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "content": "The tech world is rapidly evolving with innovations like AI advancements, quantum computing, and sustainable energy solutions",
+            "status": "published",
+            "image": null
+        },
+        {
+            "id": 1,
+            "title": "Updated \n Redux Tool Kit for react developers",
+            "category": {
+                "id": 18,
+                "name": "coding"
+            },
+            "author": "subh",
+            "excerpt": "excerpt for Redux Tool Kit for react developers",
+            "image_url": "https://images.pexels.com/photos/5474037/pexels-photo-5474037.jpeg?auto=compress&cs=tinysrgb&w=300",
+            "content": "Redux Toolkit is a library designed to simplify the process of writing Redux code. It provides a set of tools that streamline the setup and enforce best practices, aiming to reduce boilerplate code and offer a more efficient and enjoyable developer experience.",
+            "status": "published",
+            "image": "/media/images/user-5/post-1/filename-Screenshot_2023-10-30_175830.png"
+        }
+    ]
+}

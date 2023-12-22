@@ -1,0 +1,129 @@
+.introduce {
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+    /* background-color: rgb(138, 81, 192); */
+    /* background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=300');
+    background-position: center;
+    background-size: cover; */
+}
+
+.user-image{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translate(0,-25%);
+}
+
+.user-image img{
+    height: 18vmax;
+    width: 18vmax;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.user-image h2{
+    position: absolute;
+    height: fit-content;
+    padding: .9vmax;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    top: 85%;
+    left: 58%;
+    cursor: pointer;
+}
+
+.user-details {
+    width: 100%;
+    text-align: left;
+    color: black;
+    padding-left: 5%;
+}
+
+.user-details h3{
+    text-transform: capitalize;
+}
+
+.user-info{
+    padding: 2vmax 0 2vmax 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1vmax;
+    border-top: 2px solid var(--root-color);
+    border-bottom: 2px solid var(--root-color);
+    color: black;
+}
+
+.user-details h2{
+    color: purple;
+    padding-bottom: 1.5vmax;
+}
+
+.counter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmax;
+    font-size: 1vmax;
+    padding-left: 5%;
+    
+}
+
+.counter h2{
+    color: purple;
+    padding-bottom: 1.1vmax;
+    border-bottom: 2px solid var(--root-color);
+}
+
+.count-box{
+    color: purple;
+    height: 7vmax;
+    width: 7vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3.3px solid var(--root-color);
+    gap: 1vmax;
+}
+
+.introduce h3 > i{
+    color: var(--root-color);
+}
+
+
+.count-box h1:nth-child(1){
+    font-size: 2.5em;
+}
+
+#hidden-file-input{
+    display: none
+}
+
+.purple {
+    color: purple;
+}
+
+@media (max-width: 1000px) {
+    .introduce{
+        width: 100%;
+        min-height: 45vh;
+        max-height: fit-content;
+    }
+
+    .user-image img{
+        height: 30vmax;
+        width: 30vmax;
+    }    
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+:root{
+  --root-color:coral;
+  --root-margin: 1vmax;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: var(--root-color);
+}
+
+::selection{
+  background-color: coral;
+  color: white;
+}
+

@@ -1,0 +1,36 @@
+.blog-patch-field{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    left: 5%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-patch-field textarea{
+    min-width: 85%;
+    max-width: 85%;
+    max-height: 7.4vmax;
+    height: auto;
+    min-height: 6vmax;
+    font-weight: 600;
+    font-size: large;
+}
+
+.blog-patch-field textarea:focus{
+    overflow: none;
+}
+
+.patch-btn{
+    padding: 1.5vmax;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    color: orange;
+    font-size: 100%;
+    font-weight: 600;
+}
+

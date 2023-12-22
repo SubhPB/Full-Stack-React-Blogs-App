@@ -1,0 +1,23 @@
+.user-settings{
+    width: 100%;
+    min-height: 15vh;
+}
+
+.setting-field{
+    width: 100%;
+    padding: 2vmax 3vmax 1.5vmax 3vmax;
+    height: fit-content;
+    color: teal;
+    cursor:context-menu;
+    position: relative;
+    overflow: hidden;
+}
+
+.setting-field h1{
+    text-align: center;
+    color: var(--root-color)
+}
+
+.setting-field > h2  i{
+    color: var(--root-color)
+}

@@ -1,0 +1,92 @@
+.user-blog{
+    width: 100%;
+    min-height: 30vh;
+    height: 100%;
+    display: flex;
+    padding-top: 3.5vmax;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog-container{
+    position: relative;
+    width: 90%;
+    /* border: 2px solid purple; */
+    height: fit-content;
+    text-align: center;
+    z-index: 5;
+    margin-left: 5%;
+}
+
+.blog-update{
+    width: 100%;
+    border-radius: 11px;
+}
+
+.blog-field{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vmax;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    min-height: 8vmax;
+    z-index: 3;
+    background-color: white;
+}
+
+.blog-field h2 > i {
+    color: var(--root-color);
+}
+
+.del-container{
+    width: 100%;
+}
+
+.del-confirm{
+    padding: 3vmax;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+    margin-left: 20%;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.del-title{
+    color: black;
+}
+
+.del-btns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.del-btn{
+    padding: 1vmax 1.7vmax 1vmax 1.7vmax;
+    border-radius: 9px;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    border: none
+}
+
+.del-btns .del-btn:nth-child(1){
+    background-color: rgb(8, 167, 8);
+}
+
+
+@media (max-width: 1000px) {
+    .del-confirm{
+        width: 85%;
+        margin-left: 7.5%;
+    }
+}

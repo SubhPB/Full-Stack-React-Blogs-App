@@ -1,0 +1,140 @@
+#form-wrapper{
+    min-height:8vh;
+    max-height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--root-color);
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+}
+
+#dynamic-form{
+    min-height: 92%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    gap: 2.5vmax;
+    border-right: 2px solid var(--root-color);
+    border-left: 2px solid var(--root-color) ;
+    
+}
+
+.form-heading h2{
+    font-weight: 700;
+}
+
+.input-field{
+    position: relative;
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-field-heading{
+    opacity: 0.8;
+}
+
+.input-field input{
+    width: 100%;
+    border: none;
+    padding: .3vmax;
+    border-bottom: 2px solid grey;
+    font-weight: bolder;
+}
+
+.input-field textarea{
+    
+    font-weight: bold;
+    width: 100%;
+    resize: vertical;
+    border: none;
+    padding: .3vmax;
+    border-bottom: 2px solid grey;
+    min-height: 2rem;
+    max-height: 4.4rem;
+    line-height: 1.3;
+    overflow: auto;
+}
+
+.eye-icon{
+    cursor:pointer;
+    position: absolute;
+    right: 0%;
+    bottom: 2%;
+}
+
+.input-field input:focus{
+    outline: none;
+
+}
+
+.input-field textarea:focus{
+    outline: none;
+}
+
+.input-field textarea::-webkit-scrollbar{
+    display: none;
+}
+
+#file-input{
+    position: absolute;
+    opacity: 0;
+}
+
+.select-file-btn{
+    color: white;
+    width: 100%;
+    background-color: orange;
+    border-radius: 9px;
+    border: none;
+    padding: 2px;
+    min-height: 4vmin;
+}
+
+.submission-btn{
+    color: white;
+    width: 100%;
+    background-color: coral;
+    border-radius: 9px;
+    border: none;
+    padding: 2px;
+    min-height: 6vmin;
+}
+
+.input-field select{
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size:medium;
+    font-weight: 700;
+    text-align: center;
+    color: gray;
+}
+
+.input-field select:focus{
+    outline: none;
+}
+
+.input-field select option{
+    background-color: coral;
+    color: white;
+}
+
+
+@media (max-width : 1000px) {
+    #dynamic-form{
+        width: 84%;
+    }
+
+    .input-field{
+        min-width: 85%
+    }
+}

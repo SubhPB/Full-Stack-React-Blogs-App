@@ -1,0 +1,51 @@
+.pagination-box{
+    width: 100%;
+    /* height: 10vmin; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    margin: 2vmax 0 2vmax 0;
+    /* background-color: black; */
+}
+
+.page-box{
+    height: 3rem;
+    min-width: 3rem;
+    background-color: var(--root-color);
+    background-color: goldenrod ;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-box.current{
+    background-color: yellowgreen;
+}
+
+.page-box select{
+    height: 100%;
+    width: 100%;
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 8px;
+}
+
+.page-box select::-webkit-scrollbar{
+    /* background-color: transparent; */
+    color: white;
+    border-radius: 9px;
+    width: 1vmin
+}
+
+.page-box select::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 9px;
+}
+
+.page-box select option{
+    height: 10vh;
+}

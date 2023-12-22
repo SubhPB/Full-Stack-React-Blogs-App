@@ -1,0 +1,50 @@
+#loader{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 6vmin;
+    color: var(--root-color);
+    gap: 2vmax;
+    backdrop-filter: blur(9px);
+    z-index: 100;
+}
+
+.loading-element{
+    width: 55%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.loading-element.secondary {
+    margin-left:45%;
+    justify-content: flex-start;
+}
+
+.loading-animation{
+    display: inline-block;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    border: 1vmin solid transparent;
+    border-radius: 50%;
+    border-left-color: var(--root-color);
+    background-color: white;
+    animation: spinner 1s ease infinite;
+}
+
+.loading-animation.secondary{
+    border-right-color: var(--root-color);
+    border-left-color: transparent;
+}
+
+@keyframes spinner {
+    100%{
+        transform: rotate(360deg);
+    }
+}

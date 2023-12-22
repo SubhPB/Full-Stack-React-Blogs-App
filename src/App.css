@@ -1,0 +1,22 @@
+
+
+#root-application{
+    position: relative;
+    min-height: 100vh;
+    width: calc( 100% - calc( 2 * var(--root-padding)));
+    margin-right: var(--root-margin);
+    margin-left: var(--root-margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1vmax;
+}
+
+.have-pointer-cursor{
+    cursor: pointer;
+}
+
+.no-text-decoration{
+    text-decoration: none;
+    color: inherit;
+}

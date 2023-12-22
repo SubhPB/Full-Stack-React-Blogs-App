@@ -1,0 +1,145 @@
+.blogs-container{
+    width: 100%;
+    min-height: 10vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2vmax 4vmax 2vmax 4vmax;
+    gap: 2vmax;
+    justify-content: center;
+    color: white
+}
+
+.blog-card{
+    position: relative;
+    min-height: 55vmin;
+    max-height: 62vmin;
+    width: 37vmin;
+    background-color: grey;
+    padding-bottom: .9vmin;
+}
+
+.view-blog-btn{
+    padding: .7vmax;
+    color: white;
+    background-color: var(--root-color);
+    font-weight: 600;
+    position: absolute;
+    top: -2.3%;
+    left: -2%;
+    border-radius: 50%;
+}
+
+.blog-card img{
+    height: 64%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-content {
+    max-height: 36%;
+    width: 100%;
+    overflow-y:scroll;
+    font-weight: 600;
+    padding-left: 2%;
+}
+
+.card-content::-webkit-scrollbar{
+    display: none;
+}
+
+.crud-buttons{
+    position: absolute;
+    top: 53.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 5%;
+    z-index: 5;
+}
+
+.crud-buttons h3{
+    padding: 0.5vmax;
+    border-radius: 50%;
+    background-color: var(--root-color);
+    color: white
+}
+
+.crud-buttons h3:nth-child(2){
+    background-color: red;
+}    
+
+.no-blog-found{
+    width: 100%;
+    text-align: center;
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
+}
+
+.zero-blogs{
+    height: 100%;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-rendering: geometricPrecision;
+    justify-content: center;
+    align-items: center;
+    gap: 4vmax
+}
+
+.zero-blogs h1{
+    width: 100%;
+    text-align: center;
+}
+
+.zero-blogs h1:nth-child(2){
+    background-color: teal;
+    color: white;
+}
+
+.zero-blogs button{
+    border-radius: 20px;
+    padding: .8vmax;
+    background-color: var(--root-color);
+    color: white;
+    border: none
+}
+
+.no-blog-custom-msg{
+    color: red;
+    margin-bottom: 2.2vmax;
+}
+
+.search-title{
+    width: 100%;
+    text-align: left;
+    color: orange;
+    padding-left: 8%;
+    font-weight: 600;
+    padding-top: 2vmax;
+}
+
+.search-title h2{
+    color: black;
+    margin-top: 1.5vmax;
+    padding: 1vmax;
+    display: inline-block;
+    border-radius: 12px;
+    cursor:default;
+    background-color: rgb(211, 206, 206);
+}
+
+.search-title h2 > i{
+    color: orangered
+}
+
+@media (max-width: 1000px) {
+    .blogs-container{
+        padding: 2vmax 1vmax 2vmax 1vmax;
+    }
+}
